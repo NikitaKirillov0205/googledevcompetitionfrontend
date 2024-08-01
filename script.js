@@ -1,5 +1,6 @@
 const first = document.getElementById("scrolling-txt")
 const second = document.getElementById("scrolling-txt2")
+const third = document.getElementById("scrolling-txt3")
 const container = document.getElementById("container")
 const rect = container.getBoundingClientRect()
 
@@ -13,6 +14,8 @@ document.addEventListener('scroll', function(e) {
      window.requestAnimationFrame(function() {
        
         animate(first,lastKnownScrollPosition*-.9)
-        animate(second,(lastKnownScrollPosition-300)*.9)
+        animate(third,lastKnownScrollPosition -2900 *.9)
+        if (lastKnownScrollPosition<1100){
+        animate(second,(lastKnownScrollPosition-1100)*.9)}
       });
 });
