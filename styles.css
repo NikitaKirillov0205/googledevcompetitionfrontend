@@ -1,0 +1,137 @@
+@font-face {
+    font-family: IntegralCF;
+    src: url(IntegralCF-DemiBold.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Regular.ttf);
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 2%;
+    font-family: IntegralCF;
+}
+
+.viralistlogo{
+    font-size: 46px;
+}
+
+.smallai{
+    font-size: 16px;
+    vertical-align: top;
+    line-height: 40px;
+     /* Create the gradient. */
+     background-image: linear-gradient(45deg, #832388, #E3436B, #F0772F);
+     background-size: 100%;
+     background-repeat: repeat;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; 
+     -moz-background-clip: text;
+     -moz-text-fill-color: transparent;
+}
+
+.launch_button{
+    width: 150px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-color: linear-gradient(45deg, #832388, #E3436B, #F0772F);
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 4px;
+}
+
+.launch_wrap{
+    border-radius: 25px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+    width: 158px;
+    height: 48px;
+    background: linear-gradient(45deg, #832388, #E3436B, #F0772F);
+}
+.main{
+    display: flex;
+}
+
+.right{
+    width: 40vh;
+}
+
+.developed{
+    font-family: Gilroy;
+    margin-top: 15vh;
+    margin-left: 5vh;
+    display: flex;
+    font-size: 24px;
+}
+.devtext{
+    margin-top: 10px;
+}
+.grad{
+    background-image: linear-gradient(45deg, #832388, #E3436B, #F0772F);
+     background-size: 100%;
+     background-repeat: repeat;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent; 
+     -moz-background-clip: text;
+     -moz-text-fill-color: transparent;
+}
+.developed > img{
+    width: 50px;
+}
+
+.slogan{
+    margin-top: 15vh;
+    margin-left: 5vh;
+    font-family: IntegralCF;
+    font-size: 56px;
+}
+.cont1{
+    display: flex;
+    margin-left: 5vh;
+    font-family: IntegralCF;
+    font-size: 26px;
+    margin-top: 3vh;
+    justify-content: flex-start;
+}
+
+.scroll-down > img{
+    width: 75px;
+}
+
+.cont1 > img{
+    width: 75px;
+    margin-left: 50px;
+}
+
+.powered{
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+
+.right > img{
+    width: 90vh;
+    margin-left: -20vh;
+}
+.running-text{
+    font-family: IntegralCF;
+    font-size: 64px;
+    color: white;
+    background-color: black;
+    height: 10vh;
+    margin-left: -8px;
+    margin-right: -8px;
+    overflow-x: hidden;
+    width: 1000vh;
+}
